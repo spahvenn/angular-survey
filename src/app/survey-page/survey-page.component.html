@@ -1,0 +1,28 @@
+<div class="page-title">
+  <h1>Feedback Survey</h1>
+  <p>Thank you for using our services. Please take a moment to tell us about your experience</p>
+  <div class="radio-container">
+    <p>Would you recommend our services to others?</p>
+    <mat-radio-group aria-label="Select an option">
+      <mat-radio-button value="1">Yes</mat-radio-button>
+      <mat-radio-button value="2">No</mat-radio-button>
+    </mat-radio-group>
+  </div>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>Favorite feature</mat-label>
+    <input matInput placeholder="Ex. Billing" value="">
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>Least favorite feature</mat-label>
+    <input matInput placeholder="Ex. Fees" value="">
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>Leave a comment</mat-label>
+    <textarea matInput placeholder="Ex. It makes me feel..." rows="5"></textarea>
+  </mat-form-field>
+
+  <button mat-raised-button color="primary" (click)="finishClick()">Submit</button>
+</div>

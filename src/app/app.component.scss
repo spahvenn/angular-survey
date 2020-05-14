@@ -1,0 +1,28 @@
+.page-wrapper {
+  max-width: 896px;
+  margin: auto;
+  border: none;
+  .page-body {
+    padding: 80px 140px 0 140px;
+  }
+  @media (max-width: 640px){
+    .page-body {
+      padding: 40px 70px 0 70px;
+    }
+  }
+  @media (max-width: 400px){
+    .page-body {
+      padding: 20px 35px 0 35px;
+    }
+  }
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
