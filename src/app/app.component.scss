@@ -1,3 +1,31 @@
+.logo-area {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #3f51b5;
+  width: 100%;
+  .logo {
+    max-width: 896px;
+    margin: auto;
+    h1 {
+      padding: 8px 0px 8px 140px;
+      margin-bottom: 0px;
+      color: white;
+    }
+    @media (max-width: 640px){
+      h1 {
+        padding: 8px 70px 8px 70px;
+      }
+    }
+    @media (max-width: 400px){
+      h1  {
+        padding: 8px 35px 8px 35px;
+      }
+    }
+  }
+}
+
 .page-wrapper {
   max-width: 896px;
   margin: auto;
@@ -7,12 +35,12 @@
   }
   @media (max-width: 640px){
     .page-body {
-      padding: 40px 70px 0 70px;
+      padding: 80px 70px 0 70px;
     }
   }
   @media (max-width: 400px){
     .page-body {
-      padding: 20px 35px 0 35px;
+      padding: 80px 35px 0 35px;
     }
   }
 }
